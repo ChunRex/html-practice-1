@@ -1,0 +1,275 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.wrap {
+  margin: 0 auto;
+  width: 1002px;
+  font-family: "Microsoft JhengHei";
+}
+
+.wrap .header .top-icon {
+  display: flex;
+  justify-content: flex-end;
+  background-color: silver;
+  padding: 10px;
+}
+
+.wrap .header .top-icon hr {
+  writing-mode: vertical-lr;
+  height: 15px;
+  width: 1px;
+  background-color: black;
+}
+
+.wrap .header a {
+  text-decoration: none;
+  display: block;
+  text-align: center;
+}
+
+.wrap .header a:hover {
+  color: red;
+}
+
+.wrap .header .top-menu {
+  display: flex;
+  justify-content: space-between;
+  height: 50px;
+}
+
+.wrap .header .top-menu h1 {
+  background-image: url(../image/logo.png);
+  background-repeat: no-repeat;
+  background-size: center;
+  width: 224px;
+  text-indent: 101%;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.wrap .header .top-menu ul {
+  display: flex;
+  align-items: center;
+}
+
+.wrap .header .top-menu ul li {
+  padding-right: 50px;
+  display: block;
+}
+
+.wrap .header .banner {
+  background-image: url(../image/banner.png);
+  background-repeat: no-repeat;
+  height: 346px;
+  display: flex;
+  align-items: center;
+}
+
+.wrap .header .banner p {
+  width: 100%;
+  color: white;
+  padding: 50px 20px;
+  line-height: 64px;
+  font-size: 32px;
+  background: rgba(0, 0, 0, 0.15);
+}
+
+.content .content-menu {
+  display: flex;
+  text-align: center;
+  padding: 50px 0;
+}
+
+.content .content-menu li {
+  margin: 0 5px;
+  border: 1px solid silver;
+  border-top: 0px;
+  box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.7);
+}
+
+.content .content-menu li h3 {
+  font-weight: bold;
+  padding-top: 20px;
+}
+
+.content .content-menu li p {
+  padding: 20px;
+  text-align: left;
+  line-height: 36px;
+}
+
+.content .content-menu li .text-center {
+  text-align: center;
+  padding-bottom: 0;
+}
+
+.content .content-menu li li {
+  border: 0;
+  line-height: 36px;
+  list-style: inside;
+  text-align: left;
+  padding-left: 20px;
+  box-shadow: none;
+}
+
+.content .content-table {
+  padding-bottom: 50px;
+}
+
+.content .content-table .title {
+  text-align: center;
+  font-size: 24px;
+  padding-bottom: 30px;
+}
+
+.content .content-table .table {
+  margin: 0 auto;
+  text-align: left;
+}
+
+.content .content-table .table th, .content .content-table .table td {
+  padding: 10px 100px 10px 30px;
+  border-top: 1px solid silver;
+  border-bottom: 1px solid silver;
+}
+
+.content .content-table .table th {
+  background-color: silver;
+  font-weight: bolder;
+}
+
+.content .content-table .table .color {
+  color: green;
+  font-weight: bolder;
+}
+
+.content .information {
+  background-image: url(../image/background.png);
+  background-repeat: no-repeat;
+  height: 405px;
+  margin-bottom: 50px;
+}
+
+.content .information .title {
+  text-align: center;
+  font-size: 30px;
+  line-height: 42px;
+  padding: 30px 0;
+  color: white;
+}
+
+.content .information .submit {
+  display: flex;
+  justify-content: center;
+}
+
+.content .information .submit input {
+  border-radius: 3px;
+  border: 0;
+}
+
+.content .information .submit .textInput {
+  width: 500px;
+  height: 200px;
+}
+
+.content .information .submit .send {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  padding-left: 50px;
+  width: 400px;
+}
+
+.content .information .submit .send input, .content .information .submit .send label {
+  margin-top: 10px;
+}
+
+.content .information .submit .send input {
+  padding: 5px 0;
+  padding-left: 10px;
+}
+
+.content .information .submit .send .btn {
+  width: 50px;
+  padding: 5px;
+  background: #17f017;
+  margin-left: auto;
+}
+
+.content .information .submit .send .btn:hover {
+  font-weight: bolder;
+  cursor: pointer;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+.footer .contact {
+  line-height: 24px;
+  padding-right: 20px;
+}
+
+.footer .contact a {
+  color: red;
+  text-decoration: none;
+}
+
+.footer .contact a:hover {
+  color: pink;
+}
+/*# sourceMappingURL=all.css.map */

@@ -1,0 +1,108 @@
+.content{
+    .content-menu{
+        display: flex;
+        text-align: center;
+        padding: 50px 0;
+        li{
+            margin: 0 5px;
+            border: 1px solid silver;
+            border-top: 0px;
+            box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.7);
+            h3{
+                font-weight: bold;
+                padding-top: 20px;
+            }
+            p{
+                padding: 20px;
+                text-align: left;
+                line-height: 36px;
+            }
+            .text-center{
+                text-align: center;
+                padding-bottom: 0;
+            }
+            li{
+                border: 0;
+                line-height: 36px;
+                list-style: inside;
+                text-align: left;
+                padding-left: 20px;
+                box-shadow: none;
+            }
+        }
+    }
+    .content-table{
+        padding-bottom: 50px;
+        .title{
+            text-align: center;
+            font-size: 24px;
+            padding-bottom: 30px;
+        }
+        .table{
+            margin: 0 auto;
+            text-align: left;
+            th,td{
+                padding: 10px 100px 10px 30px;
+                border-top: 1px solid silver;
+                border-bottom: 1px solid silver;
+            }
+            th{
+                background-color: silver;
+                font-weight: bolder;
+            }
+            .color{
+                color: green;
+                font-weight: bolder;
+            }
+        }
+    }
+    .information{
+        background-image: url(../image/background.png);
+        background-repeat: no-repeat;
+        height: 405px;
+        margin-bottom: 50px;
+        .title{
+            text-align: center;
+            font-size: 30px;
+            line-height: 42px;
+            padding: 30px 0;
+            color: white;
+        }
+        .submit{
+            display: flex;
+            justify-content: center;
+            input{
+                border-radius: 3px;
+                border: 0;
+            }
+            .textInput{
+                width: 500px;
+                height: 200px;
+            }
+            .send{
+                display: flex;
+                flex-direction: column;
+                color: white;
+                padding-left: 50px;
+                width: 400px;
+                input,label{
+                    margin-top: 10px;
+                }
+                input{
+                    padding: 5px 0;
+                    padding-left: 10px;
+                }
+                .btn{
+                    width: 50px;
+                    padding: 5px;
+                    background: rgb(23, 240, 23);
+                    margin-left: auto;
+                }
+                .btn:hover{
+                    font-weight: bolder;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+} 

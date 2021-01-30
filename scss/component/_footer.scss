@@ -1,0 +1,16 @@
+.footer{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+    .contact{
+        line-height: 24px;
+        padding-right: 20px;
+        a{
+            color: red;
+            text-decoration: none;
+        }
+        a:hover{
+            color: pink;
+        }
+    }
+}
